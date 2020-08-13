@@ -5,6 +5,7 @@ body{
     line-height: normal;
     padding: 0 0;
 }
+/* header styles */
 header{
     background-color: #ed2415;
     text-align: center;
@@ -21,25 +22,24 @@ header h1{
 }
 header img{
     border-radius: 170px;
-    width: 300px;
+    width: 250px;
     border: 10px solid white
 }
 main{
-    max-width: 900px;
+    max-width: 800px;
     text-align: center;
     margin: 0 auto;
     padding: 20px 
-}
-main img{
-    max-width: 100%;
 }
 h2{
     font-size: 30px;
     color: #ed2415;
     margin: 40px 0 10px;
 }
-body img{
+main img{
     max-width: 50%;
+    border-radius: 70px;
+    width: 300px;
 }
 ul{
     text-align: left;
@@ -69,5 +69,5 @@ footer a{
 }
 footer a:hover{
     opacity: .5;
-    background-color: transparent;
+    background-color: white;
 }
